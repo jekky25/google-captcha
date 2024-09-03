@@ -1,0 +1,30 @@
+{
+    "name": "j25/google-captcha",
+    "description": "Google captcha v3.0 for laravel",
+    "keywords":    ["captcha", "validation", "webform"],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "J25\\GoogleCaptcha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgenii Vlasov",
+            "email": "jekky25@list.ru",
+            "homepage": "https://github.com/jekky25/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+		"laravel": {
+			"providers": [
+				"J25\\GoogleCaptcha\\GoogleCaptchaServiceProvider"
+			]
+		}
+	}
+}
