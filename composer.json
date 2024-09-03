@@ -23,7 +23,7 @@
     "extra": {
 		"laravel": {
 			"providers": [
-				"J25\\GoogleCaptcha\\GoogleCaptchaServiceProvider"
+				"J25\\GoogleCaptcha\\Providers\\GoogleCaptchaServiceProvider"
 			]
 		}
 	}
